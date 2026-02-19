@@ -1,0 +1,211 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-title {
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.hero-description {
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.hero-actions {
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.markets-header {
+    animation: fadeInUp 1s ease-out both;
+}
+
+.market-card {
+    animation: slideInLeft 1s ease-out 0.3s both;
+}
+
+.markets-right {
+    animation: slideInRight 1s ease-out 0.3s both;
+}
+
+.feature-item {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.feature-item:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.feature-item:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.feature-item:nth-child(3) {
+    animation-delay: 0.7s;
+}
+
+.feature-item:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+
+
+
+
+
+
+.education-header {
+    animation: fadeInUp 1s ease-out both;
+}
+
+.education-item {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.education-item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.education-item:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.education-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.education-item:nth-child(4) {
+    animation-delay: 0.5s;
+}
+
+.education-cta {
+    animation: fadeInUp 1s ease-out 0.7s both;
+}
+
+
+
+
+
+
+
+
+
+
+.ready-trade-card {
+    animation: fadeInScale 1s ease-out both;
+}
+
+.ready-title {
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.ready-description {
+    animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+.ready-actions {
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.ready-trade-button {
+    animation: fadeInUp 1s ease-out 0.5s both;
+}
+
+
+
+
+
+
+.vps-title {
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.vps-subtitle {
+    animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+.vps-description {
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.vps-benefits {
+    animation: fadeInUp 1s ease-out 0.5s both;
+}
+
+.vps-qualification {
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.vps-background {
+    animation: fadeIn 1.5s ease-out 0.3s both;
+}
+
+
+
+
+
+
+
+
+.choosing-header {
+    animation: fadeInUp 1s ease-out both;
+}
+
+.platform-box {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.platform-box:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.platform-box:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.choosing-footer {
+    animation: fadeInUp 1s ease-out 0.5s both;
+}
